@@ -22,3 +22,4 @@ restaurant.removeParty(3)
 //console.log(restaurant)
 console.log(restaurant.checkAvailability(7))
 
+// just a comment

@@ -10,9 +10,18 @@ const notes = ['Note 1', 'Note 2', 'Note 3']
 
 notes[2] = "This is the new note 3"
 
-notes.forEach(function (){
-    console.log("Testing 123...")
+notes.forEach(function (index, item) {
+    console.log(index)
+    console.log(item)
 }) 
 
-console.log(notes)
+// console.log(notes)
 
+for (count = 5; count >= 0; count--) {
+    if (count === 0) {
+        console.log('BOOM!')
+    }
+    else {
+        console.log(count)
+    }
+}

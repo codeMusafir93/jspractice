@@ -9,5 +9,10 @@ const notes = ['Note 1', 'Note 2', 'Note 3']
 // notes.splice(1, 1, 'This is the new second item')
 
 notes[2] = "This is the new note 3"
+
+notes.forEach(function (){
+    console.log("Testing 123...")
+}) 
+
 console.log(notes)
 
